@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>OZIZI</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+        <meta name="viewport" content="width-device-width, user-scalable-no,
+        initial-scale-1.0, maximum-scale-1.0, minimum-scale-1.0">
+        <link rel="shortcut icon" href="img/logo_blanco.svg" type="image/x-icon">
+         <!--iconos-->
+        <script src="https://kit.fontawesome.com/6d0d2b42b1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--inicio del header-->
+        <header>
+            <nav class="navbar navbar-expand-lg container-fluid">
+                <div class="col-lg-2 col-sm-12">
+                    <a href="index.html">
+                        <img src="img/logo Ozizi.jpg" alt="logo OZIZI" class="logo">
+                    </a>   
+                        
+            </div >
+                <div class="col-lg-2 col-sm-12">
+                    <li>
+                        <a class="nav-link" href="nuestros_servicios.html">Nuestros servicios </a>
+                    </li>
+                </div >
+                <div class="col-lg-2 col-sm-12">
+                    <li>
+                        <a class="nav-link" href="acerca_de_nosotros.html">Acerca de nosotros </a>
+                    </li>
+                    
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <li>
+                        <a class="nav-link" href="#">Membresia </a>
+                    </li>
+                    
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                        <div class="botones-1">
+                            <li class="nav-item dropdown btn-1">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Iniciar sesión</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="login.html"><i class="fa-solid fa-chalkboard-user"></i>  Tutores</a>
+                                  <a class="dropdown-item" href="login.html"><i class="fa-solid fa-graduation-cap"></i>  Aprendiz</a>
+                                  <a class="dropdown-item" href="#">Administrador</a>
+                                </div>
+                              </li>
+                        </div>
+                    
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                        <div class="botones-2 dropdown">
+                            <li class="nav-item dropdown btn-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Registrase</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#"><i class="fa-solid fa-chalkboard-user"></i>  Tutores</a>
+                                  <a class="dropdown-item" href="#"><i class="fa-solid fa-graduation-cap"></i>  Aprendiz</a>
+                                </div>
+                              </li>
+                        </div>
+                </div>    
+            </nav>
+</header>
+            <!--cards-->
+            <h1 class="titulo1">Nuestros servicios</h1>
+            
+            <div class="container nuestros">
+
+                <div class="card">
+                    <img src="img/talleres.jpeg" alt="talleres" class="imagen">
+                    <h3>Talleres</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to make a type specimen book. 
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="img/asesorias.jpeg" alt="talleres" class="imagen">
+                    <h3>Asesorias</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+
+                <a href="cursos_home.php"><div class="card">
+                    <img src="img/cursos.jpeg" alt="talleres" class="imagen">
+                    <h3>Cursos</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div></a>
+            </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
